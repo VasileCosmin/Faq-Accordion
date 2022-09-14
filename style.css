@@ -77,21 +77,23 @@ body {
 
 .images .photo {
   position: absolute;
-  transform: translate(-190px, 0px);
+  width: 700px;
+  transform: translate(-220px, -50px);
   z-index: 2;
-  clip-path: inset(0 0 0 90px);
+  clip-path: inset(0 0 0 120px);
 }
 
 .images .back {
   position: absolute;
-  clip-path: inset(270px 0 0 600px);
-  transform: translate(-700px, -370px);
+  width: 1000px;
+  clip-path: inset(220px 0 0 400px);
+  transform: translate(-590px, -320px);
 }
 
 .images .box {
   position: absolute;
   z-index: 11;
-  transform: translate(-210px, 140px);
+  transform: translate(-190px, 200px);
 }
 
 @media(max-width: 980px) {
